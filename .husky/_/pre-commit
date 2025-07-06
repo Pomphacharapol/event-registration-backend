@@ -1,0 +1,7 @@
+#!/usr/bin/env sh
+. "$(dirname "$0")/husky.sh"
+
+yarn install
+yarn format
+yarn run lint --fix
+yarn run husky:test:unit

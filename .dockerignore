@@ -1,0 +1,8 @@
+.husky
+.vscode
+development
+dist
+environments
+node_modules
+public
+temp

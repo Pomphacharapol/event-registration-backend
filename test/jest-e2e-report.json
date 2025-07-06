@@ -1,0 +1,27 @@
+{
+  "moduleFileExtensions": ["js", "json", "ts"],
+  "rootDir": "../",
+  "testEnvironment": "node",
+  "coveragePathIgnorePatterns": [
+    "/dist/",
+    "/healthcheck/",
+    "/node_modules/",
+    "migrations"
+  ],
+  "testRegex": ".e2e.spec.ts$",
+  "transform": {
+    "^.+\\.(t|j)s$": "ts-jest"
+  },
+  "reporters": [
+    "default",
+    [
+      "jest-html-reporter",
+      {
+        "includeFailureMsg": true,
+        "includeSuiteFailure": true,
+        "outputPath": "./report/e2e/index.html",
+        "pageTitle": "Test Report (E2E)"
+      }
+    ]
+  ]
+}

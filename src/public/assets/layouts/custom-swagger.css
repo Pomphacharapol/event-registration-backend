@@ -1,0 +1,236 @@
+:root {
+  --bg-color-1: #3cb371;
+  --bg-color-2: #98fb98;
+  --bg-color-3: #90ee90;
+  --bg-color-4: #f1fbdd;
+  --bg-color-5: #fafff1;
+  --border-radius: 15px;
+  --danger-color: #ff6060;
+  --light-color: #ffffff;
+  --primary-color: #3498db;
+}
+
+@font-face {
+  font-family: 'Fredoka';
+  src: url('../fonts/Fredoka-Light.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+* {
+  font-family: 'Fredoka', sans-serif !important;
+}
+
+body {
+  background-color: var(--bg-color-4) !important;
+  padding: 10px !important;
+}
+
+.swagger-ui .scheme-container {
+  background: var(--bg-color-5) !important;
+}
+
+.swagger-ui .topbar {
+  background-image: linear-gradient(
+    to right,
+    var(--bg-color-1),
+    var(--bg-color-2),
+    var(--bg-color-3)
+  ) !important;
+  border: 4px solid var(--light-color) !important;
+}
+
+.swagger-ui .info .title {
+  font-style: italic !important;
+}
+
+.swagger-ui .info .title small {
+  background: var(--primary-color) !important;
+}
+
+.swagger-ui .info .title small.version-stamp {
+  background-color: var(--bg-color-1) !important;
+}
+
+.swagger-ui .info li,
+.swagger-ui .info p,
+.swagger-ui .info table {
+  font-style: italic !important;
+}
+
+.swagger-ui .opblock-tag.no-desc span {
+  color: var(--light-color) !important;
+  font-style: italic !important;
+}
+
+.swagger-ui .btn {
+  border-radius: var(--border-radius) !important;
+}
+
+.swagger-ui .btn.try-out__btn {
+  background-color: var(--bg-color-2) !important;
+  border-color: var(--bg-color-2) !important;
+  border-radius: var(--border-radius) !important;
+  color: var(--light-color) !important;
+}
+
+.swagger-ui .btn.cancel {
+  background-color: var(--danger-color) !important;
+  border-color: var(--danger-color) !important;
+  border-radius: var(--border-radius) !important;
+  color: var(--light-color) !important;
+}
+
+.swagger-ui .opblock .opblock-summary-method {
+  border-radius: var(--border-radius) !important;
+}
+
+.swagger-ui .border-box,
+.swagger-ui a,
+.swagger-ui article,
+.swagger-ui body,
+.swagger-ui code,
+.swagger-ui dd,
+.swagger-ui div,
+.swagger-ui dl,
+.swagger-ui dt,
+.swagger-ui fieldset,
+.swagger-ui footer,
+.swagger-ui form,
+.swagger-ui h1,
+.swagger-ui h2,
+.swagger-ui h3,
+.swagger-ui h4,
+.swagger-ui h5,
+.swagger-ui h6,
+.swagger-ui header,
+.swagger-ui html,
+.swagger-ui input[type='email'],
+.swagger-ui input[type='number'],
+.swagger-ui input[type='password'],
+.swagger-ui input[type='tel'],
+.swagger-ui input[type='text'],
+.swagger-ui input[type='url'],
+.swagger-ui legend,
+.swagger-ui li,
+.swagger-ui main,
+.swagger-ui ol,
+.swagger-ui p,
+.swagger-ui pre,
+.swagger-ui section,
+.swagger-ui table,
+.swagger-ui td,
+.swagger-ui textarea,
+.swagger-ui th,
+.swagger-ui tr,
+.swagger-ui ul {
+  border-radius: var(--border-radius) !important;
+}
+
+.swagger-ui .opblock-body select {
+  border-radius: var(--border-radius) !important;
+}
+
+.swagger-ui .model-toggle:after {
+  border-radius: var(--border-radius) !important;
+}
+
+.swagger-ui .opblock-tag {
+  background-image: linear-gradient(
+    to right,
+    var(--bg-color-1),
+    var(--bg-color-2),
+    var(--bg-color-3)
+  ) !important;
+  border: 3px solid var(--light-color) !important;
+}
+
+.swagger-ui .servers > label select {
+  border-radius: var(--border-radius) !important;
+  border: 3px solid var(--bg-color-1) !important;
+  background-color: var(--light-color) !important;
+}
+
+.swagger-ui .response-control-media-type--accept-controller select {
+  border-color: var(--bg-color-1) !important;
+  border: 3px solid var(--bg-color-1) !important;
+  background-color: var(--light-color) !important;
+}
+
+.swagger-ui .dialog-ux .modal-ux-header {
+  background-image: linear-gradient(
+    to right,
+    var(--bg-color-1),
+    var(--bg-color-2)
+  ) !important;
+}
+
+.swagger-ui .dialog-ux .modal-ux-header h3 {
+  color: var(--light-color) !important;
+}
+
+.swagger-ui .btn.authorize {
+  background-color: var(--bg-color-2) !important;
+  border-color: var(--light-color) !important;
+  color: var(--light-color) !important;
+}
+
+.swagger-ui .auth-btn-wrapper .btn-done {
+  background-color: var(--danger-color) !important;
+  border-color: var(--light-color) !important;
+  color: var(--light-color) !important;
+}
+
+.swagger-ui .btn.authorize svg {
+  fill: var(--danger-color) !important;
+}
+
+.swagger-ui .authorization__btn .locked {
+  fill: var(--danger-color) !important;
+}
+
+.swagger-ui .auth-btn-wrapper {
+  justify-content: right !important;
+}
+
+.swagger-ui .scheme-container .schemes .auth-wrapper .authorize {
+  margin-right: 3px !important;
+}
+
+.swagger-ui input[type='email'],
+.swagger-ui input[type='file'],
+.swagger-ui input[type='password'],
+.swagger-ui input[type='search'],
+.swagger-ui input[type='text'],
+.swagger-ui textarea {
+  border-radius: var(--border-radius) !important;
+}
+
+:focus {
+  outline: none !important;
+}
+:focus-visible {
+  outline: none !important;
+}
+:focus-within {
+  outline: none !important;
+}
+::-moz-focus-inner {
+  outline: none !important;
+}
+::-moz-focus-outer {
+  outline: none !important;
+}
+::-webkit-scrollbar {
+  width: var(--border-radius) !important;
+}
+::-webkit-scrollbar-track {
+  border-radius: var(--border-radius) !important;
+}
+::-webkit-scrollbar-thumb {
+  background: var(--bg-color-3) !important;
+  border-radius: var(--border-radius) !important;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: var(--primary-color) !important;
+}
