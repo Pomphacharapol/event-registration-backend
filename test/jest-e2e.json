@@ -1,0 +1,15 @@
+{
+  "moduleFileExtensions": ["js", "json", "ts"],
+  "rootDir": "../",
+  "testEnvironment": "node",
+  "coveragePathIgnorePatterns": [
+    "/dist/",
+    "/healthcheck/",
+    "/node_modules/",
+    "migrations"
+  ],
+  "testRegex": ".e2e.spec.ts$",
+  "transform": {
+    "^.+\\.(t|j)s$": "ts-jest"
+  }
+}

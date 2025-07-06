@@ -1,0 +1,58 @@
+# compiled output
+/dist
+/node_modules
+
+# Logs
+*.log
+lerna-debug.log*
+logs
+npm-debug.log*
+pnpm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# OS
+.DS_Store
+
+# Tests
+/.nyc_output
+/coverage
+/report
+
+# IDEs and editors
+.c9/
+.classpath
+.project
+.settings/
+*.launch
+*.sublime-workspace
+/.idea
+
+# IDE - VSCode
+.vscode/*
+!.vscode/extensions.json
+!.vscode/launch.json
+!.vscode/settings.json
+!.vscode/tasks.json
+.fake
+
+# Database configuration
+/assets/config/secret-db/*
+!/assets/config/secret-db/secret-db-user-password.local
+!/assets/config/secret-db/secret-db-user-password.test
+
+# Private Keys
+/ssh
+
+# Deployments
+/environment/service/*
+!/environment/service/.env.local
+!/environment/service/.env.test
+/deploy*
+/pipelines*
+
+# Public files
+/public/*
+
+# Temporary files
+/temp/*

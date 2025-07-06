@@ -1,0 +1,27 @@
+{
+  "moduleFileExtensions": ["js", "json", "ts"],
+  "rootDir": "../",
+  "testEnvironment": "node",
+  "coveragePathIgnorePatterns": [
+    "/dist/",
+    "/healthcheck/",
+    "/node_modules/",
+    "migrations"
+  ],
+  "testRegex": ".unit.spec.ts$",
+  "transform": {
+    "^.+\\.(t|j)s$": "ts-jest"
+  },
+  "reporters": [
+    "default",
+    [
+      "jest-html-reporter",
+      {
+        "includeFailureMsg": true,
+        "includeSuiteFailure": true,
+        "outputPath": "./report/unit/index.html",
+        "pageTitle": "Test Report (Unit)"
+      }
+    ]
+  ]
+}
